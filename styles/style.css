@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.banner-head {
+    color: #FFF;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.banner-text {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.banner-section {
+    background-image: url(../Group\ 13\ \(1\)\ \(1\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+.section-btn {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    width: 174px;
+    height: 52px;
+
+    border-radius: 8px;
+
+
+}
+
+.btn {}
+
+
+
+
+
+
+
+.travel-section {
+    max-width: 1170px;
+    margin: 0 auto;
+    border: 1px solid firebrick;
+    min-width: 200px;
+    display: flex;
+    padding: 60px;
+}
+
+
+
+.travel-text-heading{
+    color: #131318;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+.travel-text-paragh{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 162.5% */
+    margin-bottom: 10px;
+    
+}
+.li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 162.5% */
+    margin-bottom: 10px;
+
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #FF5400;
+    border: 2px solid #FF5400;
+    padding: 10px;
+    margin-top: 10px;
+    color: #FFF;
+    font-weight: 600;
+}
